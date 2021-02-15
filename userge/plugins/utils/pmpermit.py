@@ -295,7 +295,7 @@ async def uninvitedPmHandler(message: Message):
         PMPERMIT_MSG[message.from_user.id] = (
             await message.reply(
                 noPmMessage.format_map(SafeDict(**user_dict))
-                + "\n`- Protected by USERGE-X`"
+                + "\n`- Protected by 🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ`"
             )
         ).message_id
         await asyncio.sleep(1)
